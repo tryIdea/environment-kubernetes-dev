@@ -1,0 +1,15 @@
+adminUser:
+  password: local:kubernetes/adminUser:password
+  username: admin
+docker:
+  email: dufugang@croot.com
+  password: local:kubernetes/docker:password
+  url: 192.168.8.210:8081
+  username: admin
+enableDocker: true
+pipelineUser:
+  email: tryIdea
+  token: local:kubernetes/pipelineUser:token
+  username: tryIdea
+prow:
+  hmacToken: local:kubernetes/prow:hmacToken

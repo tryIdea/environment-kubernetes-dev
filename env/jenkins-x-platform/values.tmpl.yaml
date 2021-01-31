@@ -166,7 +166,7 @@ PipelineSecrets:
     SSHConfig: |-
         Host github.com
             User git
-            IdentityFile /root/.ssh-git/ssh-key
+            IdentityFile /root/.ssh/id_rsa
             StrictHostKeyChecking no
 
 {{- if eq .Requirements.webhook "lighthouse" }}
